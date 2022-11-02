@@ -26,7 +26,7 @@ int main() {
   daylightInfo data[N];
 
   for (int i = 0; i < N; i++){
-    cin >> data[i].month >> data[i].day >> data[i].year >> data[i].AMhour >> data[i].AMmin >> data[i].PMhour >> data[i].PMmin;
+    cin >> data[i].month >> data[i].day >> data[i].year >> data[i].AMhour >> throwaway >> data[i].AMmin >> data[i].PMhour >> throwaway >> data[i].PMmin;
   }
 
   for (int j = 0; j < N; j++)
